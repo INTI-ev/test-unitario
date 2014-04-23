@@ -1,0 +1,13 @@
+package dobles;
+
+
+public class StubShopDataAccess implements IShopDataAccess {
+
+	public double getProductPrice(int productId) {
+		return 25;
+	}
+
+	public void save(int orderId, Order o) {
+	}
+
+}
